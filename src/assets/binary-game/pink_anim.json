@@ -1,0 +1,24 @@
+{
+    "anims": [
+        {
+            "key": "go",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 5,
+            "frames": [
+                {
+                    "key": "pink",
+                    "frame": "pink1"
+                },
+                {
+                    "key": "pink",
+                    "frame": "pink2"
+                },
+                {
+                    "key": "pink",
+                    "frame": "pink3"
+                }
+            ]
+        }
+    ]
+}

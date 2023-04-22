@@ -1,0 +1,47 @@
+{
+  "name": "alim",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://gitname.github.io/react-gh-pages",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.jsx --ignore-path .gitignore --fix src",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,md,json}\" --config ./.prettierrc",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/core": "^5.8.4",
+    "@mantine/ds": "^5.9.0",
+    "@mantine/hooks": "^5.8.4",
+    "@tabler/icons": "^1.114.0",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "phaser": "^3.55.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
+    "sort-by": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "eslint": "^8.28.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
+    "husky": "^8.0.2",
+    "prettier": "^2.8.0",
+    "vite": "^3.2.3",
+    "vite-plugin-eslint": "^1.8.1"
+  }
+}
